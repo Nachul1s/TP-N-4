@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 04</title>
+</head>
+
+<body>
+    <h3>¿Cuál es la etiqueta principal utilizada para crear una tabla en HTML? </h3>
+    <p> La etiqueta principal para crear una tabla en html es table </p>
+    <h3>¿Qué etiqueta se utiliza para definir una fila en una tabla?</h3>
+    <p> La etiqueta que se utiliza para definir una fila en una tabla es "tr" </p>
+    <h3>¿Cuál es la etiqueta utilizada para crear una celda de encabezado en una tabla? </h3>
+    <p> La etiqueta utilizada para crear una celda de canbezado en una tabla es "th" </p>
+    <h3>¿Cuál es la etiqueta utilizada para crear una celda de datos en una tabla? </h3>
+    <p> La etiqueta que se utiliza para crear una celda de datos en una tabla es "td" </p>
+    <h3>¿Qué atributo se utiliza para especificar cuántas filas debe abarcar una celda?</h3>
+    <p> Se utiliza el atributo "colspan" para expandir la celda horizontalmente </p>
+    <h3> ¿Qué atributo se utiliza para especificar cuántas filas debe abarcar una celda? </h3>
+    <p> El atributo rowspan modifica el espacio que abarca en filas una celda
+    <h3>Si necesitamos crear una tabla con 10 filas ¿qué etiqueta y cuántas veces se debe utilizar para definir las
+        filas?</h3>
+    <p> Se utiliza la etiqueta &lt;table &gt; seguido de 10 &lt;tr &gt;, donde el primero tiene dentro la etiqueta
+        &lt;th &gt; y los otros nueve tienen &lt;td &gt; </p>
+    <h3> Realizar una tabla que contenga 5 flores y por cada uno de ellos se debe visualizar: nombre, locación, tipo,
+        imagen. </h3>
+    <table>
+        <tr>
+            <th colspan="4">Flores</th>
+        </tr>
+        <tr>
+            <th> Nombre</th>
+            <th> Localidad</th>
+            <th> Tipo </th>
+            <th> Imagen</th>
+        </tr>
+        <tr>
+            <td>Diente de Leon </td>
+            <td> Europa, Asia, America Borea, America del sur y Africa </td>
+            <td> Taraxacum officinale</td>
+            <td> <img src="Diente ed leon.webp" width="50"> </td>
+        </tr>
+        <tr>
+            <td> Rosa </td>
+            <td> Ecuador, Colombia, Kenia, Etiopía y Países Bajos</td>
+            <td> Rosaceae </td>
+            <td> <img src="rosa.webp" width="50"> </td>
+        </tr>
+        <tr>
+            <td> Girasol </td>
+            <td> America del Norte </td>
+            <td> Helianthus annuus </td>
+            <td> <img src="girasoljf.webp" width="50"> </td>
+        </tr>
+        <tr>
+            <td>Margarita </td>
+            <td> Todo el mundo </td>
+            <td> Bellis perennis </td>
+            <td> <img src="margarita.webp" width="50"> </td>
+        </tr>
+    </table>
+    <h3> Realizar una tabla de seis pilotos según la estructura definida en:
+        https://www.espn.com.ar/deporte-motor/f1/posiciones </h3>
+    <table>
+        <tr>
+            <th colspan="19">Pilotos</th>
+        </tr>
+        <tr>
+            <td>Pos</td>
+            <td>Bandera</td>
+            <td>Nombre</td>
+            <td>PTS</td>
+            <td>BRN</td>
+            <td>SAU</td>
+            <td>AUS</td>
+            <td>JPN</td>
+            <td>CHN </td>
+            <td>MIA</td>
+            <td>ITA </td>
+            <td>MON</td>
+            <td>CAN</td>
+            <td>ESP</td>
+            <td>AUT</td>
+            <td>GBR</td>
+            <td>HUN</td>
+            <td>BEL</td>
+            <td>NED</td>
+        </tr>
+        <tr>
+            <td>1 </td>
+            <td> <img src="holanda.png" alt=""> </td>
+            <td> Max Verstappen</td>
+            <td> 295 </td>
+            <td>26 </td>
+            <td> 25</td>
+            <td> - </td>
+            <td> 26</td>
+            <td> 33 </td>
+            <td> 26</td>
+            <td> 25</td>
+            <td> 8</td>
+            <td> 25</td>
+            <td> 25</td>
+            <td> 18</td>
+            <td> 18</td>
+            <td> 10</td>
+            <td> 12</td>
+            <td> 18</td>
+        </tr>
+        <tr>
+            <td>2 </td>
+            <td> <img src="Reino Unido.png" alt=""> </td>
+            <td>                Lando Norris</td>
+            <td> 225 </td>
+            <td>8</td>
+            <td> 4</td>
+            <td> 15 </td>
+            <td> 10</td>
+            <td> 21 </td>
+            <td> 25</td>
+            <td> 18</td>
+            <td> 12</td>
+            <td> 18</td>
+            <td> 19</td>
+            <td> 6 </td>
+            <td> 15</td>
+            <td> 18</td>
+            <td> 10</td>
+            <td> 26</td>
+        </tr>
+        <tr>
+            <td>3 </td>
+            <td> <img src="Monaco.png" alt=""> </td>
+            <td>Charles Leclerc </td>
+            <td> 192 </td>
+            <td>12</td>
+            <td> 16</td>
+            <td> 19 </td>
+            <td> 12</td>
+            <td> 17 </td>
+            <td> 22</td>
+            <td> 15</td>
+            <td> 25</td>
+            <td> -</td>
+            <td> 10</td>
+            <td> 2</td>
+            <td> -</td>
+            <td> 12</td>
+            <td> 15</td>
+            <td> 15</td>
+        </tr>
+        <tr>
+            <td>4 </td>
+            <td> <img src="Australia.png" alt=""> </td>
+            <td> Oscar Piastri </td>
+            <td> 179 </td>
+            <td>4</td>
+            <td> 12</td>
+            <td> 12 </td>
+            <td> 4</td>
+            <td> 6 </td>
+            <td> 3</td>
+            <td> 12</td>
+            <td> 18</td>
+            <td> 10</td>
+            <td> 6</td>
+            <td> 25</td>
+            <td> 12</td>
+            <td> 25</td>
+            <td> 18</td>
+            <td> 12</td>
+        </tr>
+        <tr>
+            <td>5 </td>
+            <td> <img src="Espana.png" alt=""> </td>
+            <td> Carlos Sainz </td>
+            <td> 172 </td>
+            <td>15</td>
+            <td> -</td>
+            <td> 25 </td>
+            <td> 15</td>
+            <td> 14 </td>
+            <td> 14</td>
+            <td> 10</td>
+            <td> 15</td>
+            <td> -</td>
+            <td> 8</td>
+            <td> 19</td>
+            <td> 11</td>
+            <td> 8</td>
+            <td> 8</td>
+            <td> 10</td>
+        </tr>
+        <tr>
+            <td>6 </td>
+            <td> <img src="Reino Unido.png" alt=""> </td>
+            <td> Lewis Hamilton </td>
+            <td> 154 </td>
+            <td>6</td>
+            <td> 2</td>
+            <td> - </td>
+            <td> 2</td>
+            <td> 9 </td>
+            <td> 8</td>
+            <td> 8</td>
+            <td> 7</td>
+            <td> 13</td>
+            <td> 15</td>
+            <td> 15</td>
+            <td> 25</td>
+            <td> 15</td>
+            <td> 25</td>
+            <td> 4</td>
+        </tr>
+
+
+
+
+
+</body>
+
+</html>
